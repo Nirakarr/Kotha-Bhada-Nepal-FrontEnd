@@ -1,0 +1,66 @@
+/* src/styles.css */
+
+/* Center the form */
+.container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 90vh;
+}
+
+/* Style the form */
+.form-container {
+ max-width: auto;
+ padding: 20px;
+ border: 1px solid #ccc;
+ border-radius: 10px;
+ box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+ margin-bottom: 16px;
+}
+
+.form-group label {
+ display: block;
+ font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+ width: 100%;
+ padding: 8px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ transition: border-color 0.3s ease-in-out;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+ outline: none;
+ border-color: #3490dc;
+}
+
+.form-group button {
+ background-color: #3490dc;
+ color: white;
+ padding: 8px 16px;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+ transition: background-color 0.3s ease-in-out;
+}
+
+.form-group button:hover {
+ background-color: green;
+}
+
+ .ckeditor-container {
+  width: 100%;
+  min-height: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  resize: vertical; /* Allow vertical resizing */
+  overflow: auto; /* Show scrollbar if content overflows */
+
+}
